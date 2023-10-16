@@ -35,8 +35,8 @@ export const NotificationsScreen = () => {
                     }
                 </Text>
 
-                <View style={{ alignItems: 'center', marginTop: 100 }}>
-                    <Icon name={authState.favoriteIcon} size={300} color='gray' />
+                <View style={{ alignItems: 'center', marginTop: 50 }}>
+                    <Icon name={authState.favoriteIcon} size={200} color='gray' />
                 </View>
             </View>
         </ScrollView>

@@ -33,6 +33,7 @@ export const authReducer = (state: AuthState, action: AuthAction): AuthState => 
         case 'changeUsername':
             return {
                 ...state,
+                isLoggedIn: true,
                 username: action.payload,
                 imageUrl: action.img
             }
